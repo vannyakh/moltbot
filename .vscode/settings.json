@@ -203,7 +203,17 @@
   },
 
   // —— Linting: project uses oxlint (not ESLint in pre-commit); Swift: SwiftLint ——
-  "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "vue", "html", "markdown", "json", "jsonc"],
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc"
+  ],
   "stylelint.enable": false,
 
   // —— Error Lens: avoid duplicating oxlint ——
@@ -226,9 +236,7 @@
   "emmet.triggerExpansionOnTab": false,
 
   // —— Tailwind (if used in ui/) ——
-  "tailwindCSS.experimental.classRegex": [
-    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
-  ],
+  "tailwindCSS.experimental.classRegex": [["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]],
 
   // —— Copilot ——
   "github.copilot.enable": {
